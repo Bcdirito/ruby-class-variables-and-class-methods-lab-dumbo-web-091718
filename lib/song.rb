@@ -46,7 +46,7 @@ class Song
    artists_hash = Hash.new(0)
    @@artists.each do |artist|
      if artists_hash["#{genre}"]
-       genres_hash["#{genre}"] += 1
+       artists_hash["#{genre}"] += 1
      else
        genres_hash["#{genre}"]
      end
