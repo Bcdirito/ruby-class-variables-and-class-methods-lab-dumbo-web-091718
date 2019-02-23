@@ -33,10 +33,10 @@ class Song
  def self.genre_count
    genres_hash = Hash.new(1)
    @@genres.each do |genre|
-     if genres_hash[genre.to_sym]
-       genres_hash[genre.to_sym] += 1
+     if genres_hash["#{genre}"]
+       genres_hash["#{genre}"] += 1
      else
-       genres_hash[genre.to_sym]
+       genres_hash["#{genre}"]
      end
    end
    genres_hash
