@@ -39,5 +39,6 @@ class Song
        genres_hash[genre.to_sym]
      end
    end
+   genres_hash
  end
 end
