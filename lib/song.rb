@@ -5,6 +5,7 @@ require "pry"
 class Song
   
   @@artists = []
+  @@genres = []
  def initialize(name, artist, genre)
    @name = name
    @artist = artist
