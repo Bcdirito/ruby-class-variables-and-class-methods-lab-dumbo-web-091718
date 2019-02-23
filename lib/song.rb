@@ -3,7 +3,7 @@ require "pry"
 # count each_with
 
 class Song
-  attr_reader :name
+  attr_accessor :name
   
  def self.new(name, artist, genre)
    @name = name
