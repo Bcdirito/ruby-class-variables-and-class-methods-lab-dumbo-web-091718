@@ -4,6 +4,6 @@ require "pry"
 
 class Song
  def self.new(title, artist, genre)
-   @artist = 
+   @artist = artist
  end
 end
