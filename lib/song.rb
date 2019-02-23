@@ -3,7 +3,7 @@ require "pry"
 # count each_with
 
 class Song
- def self.new
-   
+ def self.new(title, artist, genre)
+   @artist = 
  end
 end
