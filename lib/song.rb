@@ -37,5 +37,6 @@ class Song
        genres_hash[genre.to_sym] += 1
      else
        genres_hash[genre.to_sym]
+     end
  end
 end
