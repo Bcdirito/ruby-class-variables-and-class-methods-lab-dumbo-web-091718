@@ -51,6 +51,6 @@ class Song
        artists_hash["#{genre}"]
      end
    end
-   genres_hash
+   artists_hash
  end
 end
