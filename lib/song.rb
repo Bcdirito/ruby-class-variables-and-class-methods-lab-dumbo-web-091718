@@ -48,7 +48,7 @@ class Song
      if artists_hash["#{artist}"]
        artists_hash["#{artist}"] += 1
      else
-       artists_hash["#{genre}"]
+       artists_hash["#{artist}"]
      end
    end
    artists_hash
