@@ -4,6 +4,7 @@ require "pry"
 
 class Song
   attr_reader :artist, :genre, :name
+  
   @@artists = []
   @@genres = []
   
