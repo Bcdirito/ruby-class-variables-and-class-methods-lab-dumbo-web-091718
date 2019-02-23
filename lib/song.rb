@@ -4,4 +4,6 @@ require "pry"
 
 class Song
  def self.new
+   
+ end
 end
