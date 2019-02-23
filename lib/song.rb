@@ -3,7 +3,7 @@ require "pry"
 # count each_with
 
 class Song
-  attr_reader :artist, :genre, :song
+  attr_reader :artist, :genre, :name
   @@artists = []
   @@genres = []
   
