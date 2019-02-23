@@ -15,8 +15,6 @@ class Song
    @genre = genre
    @@artists << self.artist
    @@genres << self.genre
-   @@artists.uniq!
-   @@genres.uniq!
    @@count += 1
  end
  
