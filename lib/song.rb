@@ -5,7 +5,7 @@ require "pry"
 class Song
   attr_reader :name
  def self.new(title, artist, genre)
-   @title = title
+   @name = title
    @artist = artist
    @genre = genre
  end
